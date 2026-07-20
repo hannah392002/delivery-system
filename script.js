@@ -61,13 +61,7 @@ table.appendChild(row);
 
 clearForm();
 
-}
 
-function saveOrder(){
-
-alert("سيتم إضافة الحفظ الكامل في الجزء القادم");
-
-}
 
 window.onload=function(){
 
