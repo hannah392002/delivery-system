@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>نظام دليفري - مكتبة قوزلار</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>📚 نظام دليفري مكتبة قوزلار</h1>
+
+<div class="customer">
+
+<h2>بيانات العميل</h2>
+
+<input type="text" id="orderNo" placeholder="رقم الحجز">
+
+<input type="text" id="name" placeholder="اسم العميل">
+
+<input type="text" id="phone1" placeholder="رقم التواصل الأول">
+
+<input type="text" id="phone2" placeholder="رقم التواصل الثاني">
+
+<input type="text" id="address" placeholder="العنوان">
+
+</div>
+
+<h2>الكتب</h2>
+
+<table id="booksTable">
+
+<thead>
+
+<tr>
+
+<th>اسم الكتاب</th>
+
+<th>عدد النسخ</th>
+
+<th>رقم حجز الكتاب</th>
+
+<th>حذف</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+</tbody>
+
+</table>
+
+<button onclick="addBook()">
+➕ إضافة كتاب
+</button>
+
+<hr>
+
+<button onclick="saveOrder()">
+💾 حفظ الطلب
+</button>
+
+<button onclick=" window.print()">
+🖨️ طباعة
+</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
